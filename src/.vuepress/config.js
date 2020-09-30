@@ -51,21 +51,15 @@ module.exports = {
     sidebarDepth: 1,
     sidebar: [
       {
-        title: 'JavaScript',   // required
+        title: 'The IoT Model',   // required
         collapsable: true, // optional, defaults to true
         sidebarDepth: 0,    // optional, defaults to 1
         children: [
+          '/chapters/01_iot-model/'
         ]
       },
       {
-        title: 'Managing Code',   // required
-        collapsable: true, // optional, defaults to true
-        sidebarDepth: 0,    // optional, defaults to 1
-        children: [
-        ]
-      },
-      {
-        title: 'Frondend with Vue.js',   // required
+        title: 'Frontend with Vue.js',   // required
         collapsable: true, // optional, defaults to true
         sidebarDepth: 0,    // optional, defaults to 1
         children: [
@@ -73,6 +67,27 @@ module.exports = {
       },
       {
         title: 'Backend with Express',   // required
+        collapsable: true, // optional, defaults to true
+        sidebarDepth: 0,    // optional, defaults to 1
+        children: [
+        ]
+      },
+      {
+        title: 'Docker',   // required
+        collapsable: true, // optional, defaults to true
+        sidebarDepth: 0,    // optional, defaults to 1
+        children: [
+        ]
+      },
+      {
+        title: 'Data persistence',   // required
+        collapsable: true, // optional, defaults to true
+        sidebarDepth: 0,    // optional, defaults to 1
+        children: [
+        ]
+      },
+      {
+        title: 'Reverse proxy',   // required
         collapsable: true, // optional, defaults to true
         sidebarDepth: 0,    // optional, defaults to 1
         children: [
