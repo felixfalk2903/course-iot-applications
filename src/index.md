@@ -31,8 +31,6 @@ layout: courseIntroduction
 7) Redis
 8) Reverse proxy with Traefik
   
-
-
 ## Exercises
 
 Under construction
