@@ -1,11 +1,9 @@
 # Available Hardware
 
-
 Device | Communication protocol | Description
 ---------|----------|---------
  [MCS1608](#mcs1608) | LoRaWAN | Industrial grade LoRaWAN sensor
- [SoDaQ Explorer](#sodaq-explorer) | LoRaWAN + BLE | Arduino development board with LoRaWAN and 
- Bluetooth
+ [SoDaQ Explorer](#sodaq-explorer) | LoRaWAN + BLE | Arduino development board with LoRaWAN and Bluetooth
  [LoRaWAN Shield](https://github.com/sillevl/lorawan-shield-example/) | LoRaWAN | LoRaWAN shield for mbed and Arduino
  [mbed GPS tracker](#mbed-gps-tracker) | LoRaWAN | mbed LPC1786 GPS tracker
  kiss LoRa | LoRaWAN | Arduino tinker board (preconfigured)
@@ -21,6 +19,7 @@ Device | Communication protocol | Description
  [Amazon Alexa](https://www.amazon.com/Echo-Show-8/dp/B07PF1Y28C) | Wifi | Virtual assistant
  [Google Nest Hub](https://store.google.com/be/product/google_nest_huba) | Wifi | Virtual assistant
  IoT TV | Ethernet | LED display in lab 02.85
+ [Philips Hue](https://www.philips-hue.com/nl-be/producten) | Zwave | smart lights
 
 ## MCS1608
 
