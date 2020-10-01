@@ -3,7 +3,7 @@
 
 # IoT Applications
 
-Welcome to the IoT Applications course. In this course we will take a look at the application side concerning Internet of Things applications. Many devices are in one way or another connected to the internet for sharing or gathering information. Connecting devices to the internet means that they can be used and managed from virtually everywhere. This also means that the end users applications are build using web technologies to enable the possibilities that are provided by the internet. 
+Welcome to the IoT Applications course. In this course we will take a look at the application side concerning Internet of Things applications. Many devices are in one way or another connected to the internet for sharing or gathering information. Connecting devices to the internet means that they can be used and managed from virtually everywhere. This also means that the end users applications are build using web technologies to enable the possibilities that are provided by the internet.
 
 As IoT solutions consist out of many systems working together to build up an application, it impossible to discus and learn all topic in a single course. In this course we will mainly focus on the software side.
 
@@ -18,6 +18,7 @@ As IoT solutions consist out of many systems working together to build up an app
 
 In the second half of the semester the knowledge of this and previous courses should be transferred into a group project. The projects will try to solve an IoT problem containing devices that communicate using an IoT protocol. Bluetooth Low Energy, LoRaWan, Wifi,... devices will be available for these projects.
 
+[Check out](./projects/hardware/) the available hardware or get some idea's.
 Any suggestions or ideas are welcome.
 
 ## Lifelong learning
