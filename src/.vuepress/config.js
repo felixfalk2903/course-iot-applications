@@ -59,6 +59,18 @@ module.exports = {
         ]
       },
       {
+        title: 'Docker',   // required
+        collapsable: true, // optional, defaults to true
+        sidebarDepth: 0,    // optional, defaults to 1
+        children: [
+          '/chapters/02_docker/01_introduction/',
+          '/chapters/02_docker/02_containers/',
+          '/chapters/02_docker/03_running-containers/',
+          '/chapters/02_docker/04_building-images/',
+          '/chapters/02_docker/05_docker-compose/',
+        ]
+      },
+      {
         title: 'Frontend with Vue.js',   // required
         collapsable: true, // optional, defaults to true
         sidebarDepth: 0,    // optional, defaults to 1
@@ -67,13 +79,6 @@ module.exports = {
       },
       {
         title: 'Backend with Express',   // required
-        collapsable: true, // optional, defaults to true
-        sidebarDepth: 0,    // optional, defaults to 1
-        children: [
-        ]
-      },
-      {
-        title: 'Docker',   // required
         collapsable: true, // optional, defaults to true
         sidebarDepth: 0,    // optional, defaults to 1
         children: [
