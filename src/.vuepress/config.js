@@ -72,6 +72,17 @@ module.exports = {
         ]
       },
       {
+        title: 'Redis',   // required
+        collapsable: true, // optional, defaults to true
+        sidebarDepth: 0,    // optional, defaults to 1
+        children: [
+          '/chapters/03_redis/01_introduction/',
+          '/chapters/03_redis/02_datatypes/',
+          '/chapters/03_redis/03_pub-sub/',
+          '/chapters/03_redis/04_persistence/',
+        ]
+      },
+      {
         title: 'Frontend with Vue.js',   // required
         collapsable: true, // optional, defaults to true
         sidebarDepth: 0,    // optional, defaults to 1
