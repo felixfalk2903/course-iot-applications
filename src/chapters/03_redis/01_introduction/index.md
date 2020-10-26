@@ -21,7 +21,7 @@ We can WRITE data to the Redis server using SET "name" "23" and also we can READ
 Lets start a Redis server using docker
 
 ```shell
-docker run --name redis -p 6379:6397 -d redis
+docker run --name redis -p 6379:6379 -d redis
 ```
 
 Now let us start the `redis-cli` in that container to interact with the Redis server
