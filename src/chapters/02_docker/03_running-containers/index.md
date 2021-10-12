@@ -51,7 +51,7 @@ Advantages compared to the default bridge:
 To create a user-defined network execute the command below. Make sure to pick a unique name for the network that identifies the actual setup.
 
 ```shell
-docker network create --name wordpress-network
+docker network create wordpress-network
 ```
 
 Checkout the results using `docker network ls`.
@@ -64,6 +64,7 @@ To start the database container, the following command can be executed:
 docker run /
   --name <container_name> /
   -e MYSQL_ROOT_PASSWORD=<super_secret_password> /
+  -e MYSQL_DATABASE=<database_name>
   -d /
   --net=<network> /
   mariadb:latest
@@ -81,6 +82,7 @@ So let's fill in the necessary information and run the container:
 docker run /
   --name wordpress-db /
   -e MYSQL_ROOT_PASSWORD=hu5h43534h4334573 /
+  -e MYSQL_DATABASE=wordpress /
   -d /
   --net=wordpress-network /
   mariadb:latest
@@ -124,6 +126,8 @@ Once the database is up and running, the WordPress application container can be 
 docker run /
   --name my-wordpress /
   -e WORDPRESS_DB_HOST=wordpress-db /
+  -e WORDPRESS_DB_USER=root /
+  -e WORDPRESS_DB_NAME=wordpress /
   -e WORDPRESS_DB_PASSWORD=hu5h43534h4334573 /
   -p 8080:80 /
   -d /
