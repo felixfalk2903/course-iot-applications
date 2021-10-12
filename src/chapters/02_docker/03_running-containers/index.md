@@ -64,6 +64,7 @@ To start the database container, the following command can be executed:
 docker run /
   --name <container_name> /
   -e MYSQL_ROOT_PASSWORD=<super_secret_password> /
+  -e MYSQL_DATABASE=<database_name>
   -d /
   --net=<network> /
   mariadb:latest
@@ -81,6 +82,7 @@ So let's fill in the necessary information and run the container:
 docker run /
   --name wordpress-db /
   -e MYSQL_ROOT_PASSWORD=hu5h43534h4334573 /
+  -e MYSQL_DATABASE=wordpress /
   -d /
   --net=wordpress-network /
   mariadb:latest
@@ -115,21 +117,6 @@ When inspecting the `wordpress-network` using `docker network inspect wordpress-
   }
 ]
 ```
-
-### Creating a database
-
-We must create a database before setting up the wordpress container.
-
-```shell
-docker exec -it wordpress-db mysql -p
-
-MariaDB [(none)]> create database wordpress;
-Query OK, 1 row affected (0.000 sec)
-
-MariaDB [(none)]> exit
-Bye
-```
-
 
 ### Starting WordPress
 
