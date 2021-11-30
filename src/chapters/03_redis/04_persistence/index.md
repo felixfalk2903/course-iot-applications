@@ -11,7 +11,7 @@ To prevent dataloss, Redis implements 2 different types of persistence:
 ## RDB advantages
 
 * RDB is a very compact single-file point-in-time representation of your Redis data. RDB files are perfect for backups.
-* RDB is very good for disaster recovery hence the snapshot is a single file.
+* RDB is very good for disaster recovery since the snapshot is a single file.
 * RDB maximizes Redis performances as it forks a child process that does the persistence work.
 * RDB allows faster restarts with big datasets compared to AOF.
 
